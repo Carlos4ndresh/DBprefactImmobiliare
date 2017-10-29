@@ -5,7 +5,7 @@ FROM mysql
 WORKDIR /docker-entrypoint-initdb.d
 
 # Copy the current directory contents into the container at /app
-#ADD ScriptBD.sql /docker-entrypoint-initdb.d
+ADD ScriptBD.sql /docker-entrypoint-initdb.d
 
 # Define environment variable
 ENV MYSQL_ROOT_PASSWORD prefact2017
