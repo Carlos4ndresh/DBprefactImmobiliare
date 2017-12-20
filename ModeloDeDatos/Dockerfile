@@ -10,6 +10,7 @@ ADD ScriptBD.sql /docker-entrypoint-initdb.d
 # ADD ParametrosInmueble.sql /docker-entrypoint-initdb.d
 
 # Define environment variable
-ENV MYSQL_ROOT_PASSWORD prefact2017
+# ENV MYSQL_ROOT_PASSWORD prefact2017
+
 
 EXPOSE 3306
