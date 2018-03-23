@@ -1,6 +1,9 @@
 # Use an official mysql runtime as a parent image
 FROM mysql
 
+# make data dir
+RUN mkdir /data/mysql
+
 # Set the working directory to /app
 WORKDIR /docker-entrypoint-initdb.d
 
