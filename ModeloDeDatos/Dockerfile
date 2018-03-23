@@ -2,7 +2,7 @@
 FROM mysql
 
 # make data dir
-RUN mkdir /data/mysql
+RUN mkdir -p /data/mysql
 
 # Set the working directory to /app
 WORKDIR /docker-entrypoint-initdb.d
