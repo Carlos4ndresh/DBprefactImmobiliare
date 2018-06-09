@@ -1,5 +1,5 @@
 # Use an official mysql runtime as a parent image
-FROM mysql
+FROM mysql:5.7
 
 # make data dir
 RUN mkdir -p /data/mysql
