@@ -4,6 +4,8 @@ LIMIT 0, 1000
 
 -- Date: 2018-02-12 22:05
 */
+USE `immbodb` ;
+
 INSERT INTO `parametros_tipoproyecto` (`id`,`nombreTipoProyecto`,`descripcionTipoProyecto`) VALUES (1,'VIS','Vivienda Interés Social');
 INSERT INTO `parametros_tipoproyecto` (`id`,`nombreTipoProyecto`,`descripcionTipoProyecto`) VALUES (2,'VIP','Vivienda Interés Prioritario');
 INSERT INTO `parametros_tipoproyecto` (`id`,`nombreTipoProyecto`,`descripcionTipoProyecto`) VALUES (3,'NO VIP','Todas las no VIS/VIP');

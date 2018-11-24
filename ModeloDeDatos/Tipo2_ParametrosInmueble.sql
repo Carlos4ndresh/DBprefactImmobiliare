@@ -4,6 +4,8 @@ LIMIT 0, 1000
 
 -- Date: 2017-12-10 20:02
 */
+USE `immbodb` ;
+
 INSERT INTO `inmueble_parametroinmueble` (`id`,`nombreParametroInmueble`,`valorParametroInmueble`,`descripcionParametro`,`m2MinimoParametroInmueble`) VALUES (1,'Apartamento VIP','aptovip','Apartamento de Vivienda de Interés Prioritario',0);
 INSERT INTO `inmueble_parametroinmueble` (`id`,`nombreParametroInmueble`,`valorParametroInmueble`,`descripcionParametro`,`m2MinimoParametroInmueble`) VALUES (2,'Apartamento VIS','aptovis','Apartamento Vivienda de Interés Social',0);
 INSERT INTO `inmueble_parametroinmueble` (`id`,`nombreParametroInmueble`,`valorParametroInmueble`,`descripcionParametro`,`m2MinimoParametroInmueble`) VALUES (3,'Apartamento No VIS','aptonovis','Apartamentos Sin subsidios',0);
